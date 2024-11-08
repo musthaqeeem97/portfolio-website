@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Kabeer Ahamed Musthaqeem </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          
+            <h1>Hi, I'm <span>Musthaqeem</span></h1><br><p>I am a Fullstack Developer</p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/munna.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Musthaqeem, a mechanical engineer turned software engineer with a passion for learning and problem-solving.
+
+                    In my free time, I enjoy coding, coocking and staying active with activities like playing football.I am 
+                    excited to continue growing as a software engineer and to contribute my skills 
+                    to exciting projects in the future.
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>System</span><br>Windows</li>
+                        <li><span>Frontend Development</span><br> javascript, React js, Html, Css, Bootstrap</li>
+                        <li><span>Backend Development</span><br>Java, Python, Springboot, Flask</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022/6 - 2022/11</span><br>Trainee Engineer at Quest Global Engineering Services Private Ltd.</li>
+                       <li>Implemented Software solutions for wafer defect-detection for Japanese
+                        semiconductor manufacturing firms. </li> 
+                        <li>
+                            Used Python Flask backend development and Mongo Engine
+                            to process and classify wafer data ,
+                            conducted bug fixes, ran Pytest for code reliability, and
+                            actively participated in team meetings to support project
+                            goals.
+                        </li>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+
+                        <li><span>2023/10-present</span><br>Master in Websystems Development,Kyoto College for Graduate Studies for Informatics</li>
+                        <li><span>2023/2-2023/9</span><br>Springboot Developer Bootcamp,Brototype Trivandrum</li>
+                        <li><span>2015/5-2019/12</span><br>B-Tech in Mechanical Engineering, APJ Abdul Kalam Technological University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/sustainability.jpg">
+                <div class="layer">
+                    <h3>Ecolearn App</h3>
+                    <p>The Ecolearn project at KCGI empowers students with knowledge 
+                        on Sustainable Development Goals (SDGs) through engaging videos and
+                         a smart AI bot that provides helpful resources and guidance.</p>
+
+                    <a href="app.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ecommerce.jpg">
+                <div class="layer">
+                
+                    <h3>E-commerce App</h3>
+                    <p>BasketO is an intuitive e-commerce web application designed to enhance the online shopping experience. It offers seamless product browsing, secure transactions, and product recommendations.</p>
+                    
+                    <a href="app1.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/crypto.jpg">
+                <div class="layer">
+                    <h3>Springboot-React App</h3>
+<p>Eccebit is a cryptocurrency trading platform that blends real-time market 
+    data with a seamless user experience. Built with Spring Boot and React, 
+    it empowers users to trade digital assets effortlessly.</p>
+
+                    <a href="app2.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">↑</a>
+<<<<<<< HEAD
+=======
+        <a href="#copyright" class="btn">↓</a>
+>>>>>>> 4e6959f (initial commit)
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> ahamedmusthaqeem97@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +81 080-1320-5767</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/musthaqeeem97/"><i class="fab fa-twitter-square"></i>github</a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ahamedmusthaqeem/"><i class="fab fa-linkedin"></i>linkedin</a>
+                    
+                </div>
+                <a href="images/My Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<<<<<<< HEAD
+    <div class="copyright">
+=======
+    <div class="copyright" id="copyright">
+>>>>>>> 4e6959f (initial commit)
+        <p>&copy; 2024 by <a href="#">Kabeer Ahamed Musthaqeem</a>. All rights reserved.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQCdXq-x4Nf0i5Z7_xu1guE3-96PVoqOqeIGDWFJgtz3m5jCBYV7qvjr_Y2RTZv8Owdg/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

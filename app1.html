@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Application Showcase</title>
+    <link rel="stylesheet" href="style.css"> <!-- Assuming this CSS is in style.css -->
+</head>
+<body>
+
+<!-- Header Section -->
+<section id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1> <span>The</span> E-commerce Application</h1> <p>This project didn’t just teach me Spring Boot—it put me through a boot camp of backend survival! Now I can wrestle with databases, tame user logins,
+                 and wrangle orders like a pro!</p>
+</section>
+
+<!-- Project Showcase Section -->
+<section id="project-showcase" class="container">
+    <h2 class="sub-title">BasketO</h2>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <!-- Card on the Left Side -->
+        <div class="about-col-1">
+            <div class="project-card">
+                <img src="images/basketO.png" alt="Project Image" class="project-image" /> <!-- Replace with actual image path -->
+            </div>
+        </div>
+
+        <!-- Text on the Right Side -->
+        <div class="about-col-2">
+            <h3>About</h3>
+            <br>
+
+            <p>
+                This e-commerce application offers a comprehensive solution for managing online sales with functionalities like user registration, product management, cart management, order processing, wishlist, and product ratings. Built using a robust technology stack, it ensures efficient data handling and security.
+            </p>
+            <br>
+            <br>
+            <ul>
+                <h3>Core Features</h3>
+                <br>
+                <li><b>User Management</b>: Robust user authentication and authorization using Spring Security.</li>
+                <li><b>Product Management</b>: Manage product listings, categories, and ratings.</li>
+                <li><b>Cart and Wishlist</b>: Seamless addition and management of products in the cart and wishlist.</li>
+                <li><b>Order Management</b>: Secure order processing with integration of payment gateways.</li>
+                <li><b>Java Mail Sender</b>: Email notifications for order confirmations and updates.</li>
+            </ul>
+            <br>
+            <br>
+
+            <h3>Technology Used</h3>
+            <br>
+            <ul>
+                <b>Backend:</b>
+                <li>Spring Boot</li>
+                <li>MySQL Database</li>
+                <li>Spring Security</li>
+                <li>Java Mail Sender</li>
+                <br>
+                <b>Frontend:</b>
+                <li>Thymeleaf</li>
+                <li>Bootstrap</li>
+            
+                <br>
+                <b>Payment Gateways:</b>
+                <li>Razorpay</li>
+
+            </ul>           
+            <br><br>
+
+            <a href="https://github.com/musthaqeeem97/basketO" class="btn">Source Code</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="copyright">
+        <p>&copy; 2024 by <a href="#">Kabeer Ahamed Musthaqeem</a>. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
